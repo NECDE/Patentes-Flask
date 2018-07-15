@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<style>
+		body, html {
+		height: 100%;
+		}
+		.bg {
+		background-image: url('static/lala.jpg');
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		}
+		* {
+		box-sizing: border-box;
+		}
+		.row {
+		display: flex;
+		}
+		/* Create three equal columns that sits next to each other */
+		.column {
+		flex: 33.33%;
+		padding: 5px;
+		}
+		</style>
+		<title>InfoPatentes</title>
+	</head>
+	<body class="bg">
+		<div class="container"><br><br>
+			<div class="container">
+				<table class="table table-dark">
+					<thead>
+						<tr>
+							<th scope="col">Datos de la persona</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Nombre:</th>
+							<td>{{nombredueno}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Rut:</th>
+							<td>{{rut}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Sexo:</th>
+							<td>{{sexo}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Comuna:</th>
+							<td>{{comuna}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Domicilio:</th>
+							<td>{{domicilio}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Pais:</th>
+							<td>{{pais}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<br><br>
+			<div class="container">
+				<table class="table table-dark">
+					<thead>
+						<tr>
+							<th scope="col">Datos del vehículo</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Tipo:</th>
+							<td>{{tipovehi}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Marca:</th>
+							<td>{{marcavehi}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Modelo:</th>
+							<td>{{modelovehi}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Año:</th>
+							<td>{{anoauto}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Nº Motor:</th>
+							<td>{{nmotor}}</td>
+						</tr>
+						<tr>
+							<th scope="row">DV Patente:</th>
+							<td>{{dvpatente}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="column">
+						<img src= {{primeraimagen}} alt="1" style="width:100%">
+					</div>
+					<div class="column">
+						<img src= {{segundaimagen}} alt="2" style="width:100%">
+					</div>
+					<div class="column">
+						<img src= {{terceraimagen}} alt="3" style="width:100%">
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+		<center><a href="/">Back Home</a></center>
+		
+	</body>
+</html>
+<!-- 		<div class="container">
+	<table class="table table-dark">
+				<thead>
+											<tr>
+																		<th scope="col">Info Multas</th>
+											</tr>
+				</thead>
+				<tbody>
+											<tr>
+																		<th scope="row">Patente:</th>
+																		<td>{{multa_patente}}</td>
+											</tr>
+											<tr>
+																		<th scope="row">Rut:</th>
+																		<td>{{multa_rut}}</td>
+											</tr>
+											<tr>
+																		<th scope="row">Nombre:</th>
+																		<td>{{multa_nombre}}</td>
+											</tr>
+											<tr>
+																		<th scope="row">Monto:</th>
+																		<td>{{multa_monto}}</td>
+											</tr>
+											<tr>
+																		<th scope="row">Año:</th>
+																		<td>{{multa_ano}}</td>
+											</tr>
+											<tr>
+																		<th scope="row">Motivo</th>
+																		<td>{{multa_motivo}}</td>
+											</tr>
+											<tr>
+																		<th scope="row">Comuna</th>
+																		<td>{{multa_comuna}}</td>
+											</tr>
+				</tbody>
+	</table> -->

@@ -10,3 +10,9 @@ This run a local web server (flask) for easy data entry and sampling
 2. Type:   **Python basic_example.py**
 3. Open **127.0.0.1 or localhost** in a WebBrowser
 4. You can type a **RUN** or **Car's Plate (Patente)**
+5. See the info
+
+
+
+
+https://github.com/NECDE/InfoPatente

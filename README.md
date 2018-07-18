@@ -12,7 +12,9 @@ This run a local web server (flask) for easy data entry and sampling
 4. You can type a **RUN** or **Car's Plate (Patente)**
 5. See the info
 
-
+![ps](/images/runpowershell.png)
+![localhost](/images/localhost.png)
+![infoxpatente](/images/porpatente.png)
 
 
 https://github.com/NECDE/InfoPatente

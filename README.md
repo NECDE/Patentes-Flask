@@ -14,6 +14,7 @@ This run a local web server (flask) for easy data entry and sampling
 - imagesoup
 - flask
 
+**To run**
 
 1. Run Command prompt or WindowsPowerShell
 2. Type:   **Python basic_example.py**

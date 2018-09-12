@@ -21,25 +21,56 @@
 	</head>
 	
 	<body class="bg">
-		<br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<br><br><br><br><br><br><br>
+
 		<div class="container">
+
 			<form action="/inforut" method="POST" name="form">
+
 				<div class="form-group">
+
 					<label style="color:white;" for="lala">Búsqueda por rut</label>
-					<input type="text" name="rut_persona" class="form-control" id="lala" placeholder="12345678-9">
+					<input class="form-control" type="text" name="rut_persona" id="lala" placeholder="12345678-9">
+					
 				</div>
-				<button type="submit" class="btn btn-primary">Submit</button>
+
+				<div class="form-group form-check">
+
+				    <input class="form-check-input" name="googlemap" type="checkbox" id="exampleCheck1">
+				    <label class="form-check-label" style="color:white;" for="exampleCheck1">Google Map</label>
+
+				</div>
+
+				<button class="btn btn-primary" type="submit">Submit</button>
+
 			</form>
 		</div>
+
 		<br><br>
+
 		<div class="container">
+
 			<br><br>
+
 			<form action="/infopatente" method="POST" name="form">
+
 				<div class="form-group">
+
 					<label style="color:white;" for="lili">Búsqueda por patente de vehiculo</label>
-					<input type="text" name="patente_auto" class="form-control" id="lili" placeholder="AABB11">
+					<input class="form-control" type="text" name="patente_auto" id="lili" placeholder="AABB11">
+
 				</div>
+
+				<div class="form-group form-check">
+
+				    <input class="form-check-input" name="googlemap" type="checkbox" id="exampleCheck2">
+				    <label class="form-check-label" style="color:white;" for="exampleCheck2">Google Map</label>
+
+				</div>
+
 				<button type="submit" class="btn btn-primary">Submit</button>
+
 			</form>
 		</div>
 		
